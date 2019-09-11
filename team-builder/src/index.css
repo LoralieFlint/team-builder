@@ -16,6 +16,7 @@ code {
   border: 1px solid gray;
   border-radius: 25px;
   margin: auto;
+  margin-top: 50px;
   width: 60%;
   margin-bottom: 15px;
 }
@@ -26,7 +27,7 @@ code {
 }
 .memberName {
   font-size: 1.5rem;
-  color: green;
+  color: purple;
   padding-left: 25px;
   margin-top: 15px;
 }
@@ -38,15 +39,31 @@ code {
 }
 .memberRole {
   font-size: 1.5rem;
-  color: purple;
+  color: violet;
   padding-left: 25px;
   margin-top: 15px;
 }
 .memberLocation {
   font-size: 1.5rem;
-  color: darkmagenta;
+  color: green;
   padding-left: 25px;
   margin-top: 15px;
 }
+form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  height: 50px;
+  width: 500px;
+  margin-bottom:10px;
+}
+button {
+  width: 39.5%;  
+}
+.active {
+margin: 350px;
+}
+
 
 

@@ -5,8 +5,8 @@ import { NavLink } from 'react-router-dom';
 function Navigation() {
   return (
     <div>
-      <NavLink to='/' activeClassName="activeNavButton">Home</NavLink>
-      <NavLink to='/form' activeClassName="activeNavButton">Add Member</NavLink>
+      <NavLink to='/' ClassName="active">Home</NavLink>
+      <NavLink to='/form' ClassName="active">Add Member</NavLink>
     </div>
   )
 }
