@@ -2,6 +2,8 @@ import React from 'react';
 import{ useState, useEffect } from 'react'
 import { Route } from 'react-router-dom';
 import { team } from './team';
+import Form from './Form';
+import Navigation from './navBar';
 import TeamComponent from './teamComponent';
 import './App.css';
 
@@ -12,10 +14,10 @@ function App() {
     }, [])
 
   return (
-    <div className="Home">
-      <h1>Hello World!</h1>
+    <div>
+      <Navigation />
       <Route exact path='/' render={props => <TeamComponent {...props} teamList={teamList} /> } />
-      <Route path='/team' render={props => <team {...props} teamList={teamList} /> } />
+      <Route path='/Form' render={props => <Form {...props} teamList={teamList} /> } />
     </div>
   );
 }

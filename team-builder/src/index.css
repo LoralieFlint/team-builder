@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.memberBox {
+  border: 1px solid gray;
+  border-radius: 25px;
+  margin: auto;
+  width: 60%;
+  margin-bottom: 15px;
+}
+.memberHeader {
+  font-size: 3.0rem;
+  padding-left: 20px;
+  margin-top: 5px;
+}
+.memberName {
+  font-size: 1.5rem;
+  color: green;
+  padding-left: 25px;
+  margin-top: 15px;
+}
+.memberEmail {
+  font-size: 1.5rem;
+  color: dodgerblue;
+  padding-left: 25px;
+  margin-top: 15px;
+}
+.memberRole {
+  font-size: 1.5rem;
+  color: purple;
+  padding-left: 25px;
+  margin-top: 15px;
+}
+.memberLocation {
+  font-size: 1.5rem;
+  color: darkmagenta;
+  padding-left: 25px;
+  margin-top: 15px;
+}
+
+
