@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.memberBox {
+  border: 1px solid gray;
+  border-radius: 25px;
+  margin: auto;
+  margin-top: 50px;
+  width: 60%;
+  margin-bottom: 15px;
+}
+.memberHeader {
+  font-size: 3.0rem;
+  padding-left: 20px;
+  margin-top: 5px;
+}
+.memberName {
+  font-size: 1.5rem;
+  color: purple;
+  padding-left: 25px;
+  margin-top: 15px;
+}
+.memberEmail {
+  font-size: 1.5rem;
+  color: dodgerblue;
+  padding-left: 25px;
+  margin-top: 15px;
+}
+.memberRole {
+  font-size: 1.5rem;
+  color: violet;
+  padding-left: 25px;
+  margin-top: 15px;
+}
+.memberLocation {
+  font-size: 1.5rem;
+  color: green;
+  padding-left: 25px;
+  margin-top: 15px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  height: 50px;
+  width: 500px;
+  margin-bottom:10px;
+}
+button {
+  width: 39.5%;  
+}
+.active {
+margin: 350px;
+}
+
+
+
